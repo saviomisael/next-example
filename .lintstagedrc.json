@@ -1,0 +1,6 @@
+{
+  "src/**/*.{ts,tsx}": [
+    "npm lint -- --fix",
+    "npm test --watchAll=false --bail --findRelatedTests"
+  ]
+}
