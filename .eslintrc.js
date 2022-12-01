@@ -7,13 +7,12 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'standard-with-typescript',
+    'plugin:storybook/recommended',
     'next'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: [
-    'react'
-  ]
+  plugins: ['react']
 }
