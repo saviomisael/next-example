@@ -1,6 +1,6 @@
 {
   "src/**/*.{ts,tsx}": [
-    "npm run lint -- --fix",
-    "npm test --watchAll=false --bail --findRelatedTests"
+    "npm run eslint --fix",
+    "npm test -- --bail --findRelatedTests"
   ]
 }

@@ -9,7 +9,8 @@
     "lint": "next lint",
     "test": "jest",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "eslint": "eslint"
   },
   "dependencies": {
     "@types/node": "18.11.10",
