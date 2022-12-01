@@ -1,3 +1,9 @@
+import { createGlobalStyle } from "styled-components";
+import { reset } from './reset'
+
+export const GlobalStyle = createGlobalStyle`
+${reset}
+
 html,
 body {
   padding: 0;
@@ -24,3 +30,4 @@ a {
     background: black;
   }
 }
+`
